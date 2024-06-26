@@ -128,7 +128,7 @@ header {
       }
       .logo img {
         @media (max-width: 768px) {
-          content: url("/public/assets/color-logo.svg");
+          content: url("public/assets/color-logo.svg");
         }
       }
       .links {
@@ -332,7 +332,7 @@ header {
 
 //herosection
 .heroSection-Wrapper {
-  background: url("/public/assets/hero-img.png");
+  background: url("public/assets/hero-img.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -701,7 +701,7 @@ header {
 footer {
   margin-top: 80px;
   .footer-top {
-    background: url("/public/assets/footer-img.png");
+    background: url("public/assets/footer-img.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
