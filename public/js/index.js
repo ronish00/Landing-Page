@@ -8,8 +8,8 @@ $('.carousel').slick({
     cssEase: 'linear',
     slidesToShow: 4,
     slidesToScroll: 1,
-    nextArrow: '<button type="button" class="slick-next"><img src="../assets/nextArrow.svg"></button>',
-    prevArrow: '<button type="button" class="slick-prev"><img src="../assets/prevArrow.svg"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="public/assets/nextArrow.svg"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="public/assets/prevArrow.svg"></button>',
     responsive: [
       {
         breakpoint: 1024,
@@ -82,7 +82,7 @@ function createNewsCard(item){
   const link = document.createElement('a');
   link.href = '#';
   link.className = 'secondary-btn';
-  link.innerHTML = 'Learn more <img src="../assets/arrow.svg" alt="" srcset="">';
+  link.innerHTML = 'Learn more <img src="public/assets/arrow.svg" alt="" srcset="">';
 
   card.appendChild(imgwrapper);
   card.appendChild(h3);
@@ -166,10 +166,10 @@ function showDropdown(){
 function showMenu(){
   document.querySelector('.leftNav').classList.toggle('show-menu');
   if(document.querySelector('.leftNav').classList.contains('show-menu')){
-    document.querySelector('.hamburger img').src = '../assets/x-close.svg';
+    document.querySelector('.hamburger img').src = 'public/assets/x-close.svg';
   }
   else{
-    document.querySelector('.hamburger img').src = '../assets/menu-04.svg';
+    document.querySelector('.hamburger img').src = 'public/assets/menu-04.svg';
 
   }
 }
